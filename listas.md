@@ -73,3 +73,28 @@ Invierte los elementos de una lista.
 
 Retorna una copia **superficial** de la lista. Equivalente a `mi_lista[:]`
 
+
+## Listas por comprensión
+
+Lista de comprensiones proporcionan una forma concisa de crear listas. Las aplicaciones comunes son hacer nuevas listas donde cada elemento es el resultado de algunas operaciones aplicadas a cada miembro de otra secuencia o iterable, o crear una subsecuencia de aquellos elementos que satisfacen una determinada condición.
+
+Por ejemplo:
+
+```
+estudiantes = ['Oscar', 'Lucia', 'Pedro', 'Carlos']
+```
+Supongamos que necesitamos una lista con la inicial de cada estudiante.
+Podemos hacer:
+```iniciales = []
+for estudiante in estudiantes:
+    iniciales.append(estudiante[0])
+
+print(iniciales)
+['O', 'L', 'P', 'C']
+```
+o por comprensión
+```
+iniciales = [estudiante[0] for estudiante in estudiantes]
+print(iniciales)
+['O', 'L', 'P', 'C']
+```
