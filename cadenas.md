@@ -58,4 +58,44 @@ La cadena original se devuelve si el ancho es menor o igual que len (s).
 
 Retorna una copia de la cadena con todos los caracteres en minuscula.
 
+**str.lstrip([chars])**
 
+Retorna una copia de la cadena con todos los caracteres iniciales eliminados.
+El argumento `chars` es una cadena que especifica el conjunto de caracteres a eliminar.
+Si se omite o no, el argumento chars predeterminado es quitar espacios en blanco.
+
+**str.replace(old, new[, count])**
+
+Retorna una copia de la cadena con todas las ocurrencias de la subcadena reemplazadas por la nueva. Si el argumento
+opcional `count` es especificado, solamente las `count` ocurrencias son reemplazadas.
+
+**str.rstrip([chars])**
+
+Retorna una copia de la cadena con los caracteres finales removidos. El argumento `char` es una cadena especificando el
+grupo de caracteres a eliminar. Si es omitido o es `None`, el argumento `chars` es por defecto espacios en blanco.
+
+**str.split(sep=None, maxsplit=-1)**
+
+Devuelve una lista de las palabras de la cadena, usando `sep` como delimitador. Si `maxsplit` es especificado, se realiza el máximo las divisiones `maxsplit`. Si `maxsplit` no se especifica o -1, entonces no hay límite en el número de divisiones.
+
+```
+'1,2,3'.split(',')
+['1', '2', '3']
+```
+
+**str.startswith(prefix[, start[, end]])**
+
+Retorna `True` si la cadena inicia con el prefijo, de lo contrario retorna `False`. El prefijo puede ser una tupla de prefijos que buscar. El argumento opcional `start` es para iniciar la busqueda desde esa posición. Con el argumento opcional `end` deja de comparar la cadena en esa posición.
+
+**str.strip([chars])** 
+
+Retorna una copia de la cadena con los caracteres `chars` removido al inicio y al final. 
+Si `chars` es omitido o es `None`, por defecto se eliminan los espacios en blanco.
+
+**str.upper()**
+
+Retorna una copia de la cadena con todos los caracteres convertidos a mayúsculas.
+
+**str.zfill(width)**
+
+Retorna una copia de la cadena rellenada a la izquierda para hacer dicha cadena de la longitud `width`.
