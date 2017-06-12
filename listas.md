@@ -13,7 +13,7 @@ Extiende la lista al agregar todos los elementos de `iterable`.
 
 Inserta un elemento a una posición dada.
 El primer argumento es el índice del elemento antes del cual iniciar la inserción.
-```
+``` python
 mi_lista = ['a','b','c']
 mi_lista.insert(1, 'nuevo elemento')
 print(mi_lista)
@@ -49,7 +49,7 @@ Ordena los elementos de la lista.
 El argumento opcional `key` es una funcion usada para extraer la llave que se usara para la comparación
 durante el ordenamiento.
 
-```
+``` python
 mi_lista = ['z', 'x', 'a', 'd']
 mi_lista.sort()
 print(mi_lista)
@@ -58,7 +58,7 @@ print(mi_lista)
 
 *Ejemplo 2*
 
-``` 
+``` python
 mi_lista = [{'nombre': 'Olga'}, {'nombre': 'Ana'}]
 mi_lista.sort(key=lambda x: x['nombre'])
 print(mi_lista)
@@ -80,12 +80,13 @@ Lista de comprensiones proporcionan una forma concisa de crear listas. Las aplic
 
 Por ejemplo:
 
-```
+``` python
 estudiantes = ['Oscar', 'Lucia', 'Pedro', 'Carlos']
 ```
 Supongamos que necesitamos una lista con la inicial de cada estudiante.
 Podemos hacer:
-```iniciales = []
+``` python
+iniciales = []
 for estudiante in estudiantes:
     iniciales.append(estudiante[0])
 
@@ -93,7 +94,7 @@ print(iniciales)
 ['O', 'L', 'P', 'C']
 ```
 o por comprensión
-```
+``` python
 iniciales = [estudiante[0] for estudiante in estudiantes]
 print(iniciales)
 ['O', 'L', 'P', 'C']
