@@ -41,3 +41,14 @@ False
 
 ```
 
+Iterar diccionarios:
+
+``` python
+>>> estudiante = {'nombre': 'Ana', 'edad': 25}
+>>> for llave, valor in estudiante.iteritems():
+...     print llave, valor
+... 
+edad 25
+nombre Ana
+```
+
