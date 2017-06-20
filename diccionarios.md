@@ -1,5 +1,7 @@
 # Diccionarios
 
+https://docs.python.org/2.7/tutorial/datastructures.html#dictionaries
+
 A diferencia de las secuencias, que están indexadas por un rango de números, los diccionarios son indexados por claves, que pueden ser de cualquier tipo inmutable; Cadenas y números siempre pueden ser claves.
 
 Lo mejor es pensar en un diccionario como un conjunto no ordenado de pares `llave: valor`, con el requisito de que las claves sean únicas (dentro de un diccionario). `{}` crea un diccionario. Colocar una lista separada por comas de pares de `llave: valor` dentro de las llaves añade pares iniciales `llave:valor` al diccionario;
