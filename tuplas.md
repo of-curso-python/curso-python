@@ -1,6 +1,6 @@
 Una tupla consista en valores separados por coma.
 
-https://docs.python.org/3.5/tutorial/datastructures.html#tuples-and-sequences
+https://docs.python.org/2.7/tutorial/datastructures.html#tuples-and-sequences
 
 Ejemplo:
 ``` python
