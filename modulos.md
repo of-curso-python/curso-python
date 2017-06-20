@@ -1,6 +1,6 @@
 # Módulos
 
-https://docs.python.org/3.5/tutorial/modules.html
+https://docs.python.org/2.7/tutorial/modules.html
 
 Un módulo es un archivo que contiene definiciones y declaraciones de Python.
 El nombre del archivo es el nombre del módulo con el sufijo `.py` añadido.
