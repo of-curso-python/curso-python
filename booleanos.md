@@ -1,6 +1,6 @@
 # Operaciones booleanas
 
-https://docs.python.org/3.5/reference/expressions.html#boolean-operations
+https://docs.python.org/2.7/reference/expressions.html#boolean-operations
 
 En el contexto de las operaciones booleanas, y también cuando las expresiones son utilizadas por las sentencias de control de flujo,
 los siguientes valores se interpretan como falsos:
