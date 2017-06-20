@@ -1,5 +1,5 @@
 # Métodos de lista.
-https://docs.python.org/3.5/tutorial/datastructures.html#more-on-lists
+https://docs.python.org/2.7/tutorial/datastructures.html#more-on-lists
 
 **list.append(x)**
 

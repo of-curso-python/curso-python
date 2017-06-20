@@ -1,6 +1,6 @@
 
 # Métodos de cadena
-https://docs.python.org/3.5/library/stdtypes.html#string-methods
+https://docs.python.org/2.7/library/stdtypes.html#string-methods
 
 **str.capitalize()**
 

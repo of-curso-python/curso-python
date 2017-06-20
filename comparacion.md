@@ -1,6 +1,6 @@
 # Operadores de comparación
 
-https://docs.python.org/3.5/reference/expressions.html#comparisons
+https://docs.python.org/2.7/reference/expressions.html#comparisons
 
 Todas las operaciones de comparación en Python tienen la misma prioridad, que es menor que la de cualquier aritmética.
 
