@@ -71,3 +71,4 @@ Hola Mundo desde un archivo
 >>> 
 ```
 
+**Cuando haya terminado de trabajar con un archivo, llame a `f.close()` para cerrarlo y liberar los recursos del sistema ocupados por el archivo abierto. Después de llamar a `f.close()`, los intentos de usar el objeto de archivo fallarán automáticamente.**
