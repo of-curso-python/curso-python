@@ -72,3 +72,13 @@ Hola Mundo desde un archivo
 ```
 
 **Cuando haya terminado de trabajar con un archivo, llame a `f.close()` para cerrarlo y liberar los recursos del sistema ocupados por el archivo abierto. Después de llamar a `f.close()`, los intentos de usar el objeto de archivo fallarán automáticamente.**
+
+Es una buena práctica usar la palabra clave `with` cuando se trata de objetos de archivo. Esto tiene la ventaja de que el archivo se cierra correctamente después de finalizado su uso, incluso si se genera una excepción en el camino.
+
+``` python
+>>> with open('hola.txt', 'r') as archivo:
+...     for linea in archivo:
+...         print linea
+... 
+Hola Mundo desde un archivo
+```
