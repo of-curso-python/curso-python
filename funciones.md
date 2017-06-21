@@ -1,4 +1,4 @@
-# Fuciones
+# Funciones
 
 La palabra clave `def` introduce una definición de función.
 Debe ser seguido por el nombre de la función y la lista entre paréntesis de parámetros formales.
