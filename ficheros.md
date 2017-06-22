@@ -7,7 +7,7 @@ https://docs.python.org/2/tutorial/inputoutput.html#reading-and-writing-files
 
 https://docs.python.org/2.7/library/functions.html#open
 
-Devuelve un objeto de archivo, y es más comúnmente usado con dos argumentos: `open (filename, mode)`.
+Devuelve un objeto de archivo, y es más comúnmente usado con dos argumentos: `open(filename, mode)`.
 
 - `filename` es el nombre del archivo que se va a abrir.
 - `mode` es una cadena que indica cómo se va a abrir el archivo.
