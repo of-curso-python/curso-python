@@ -11,8 +11,7 @@ class Clase:
 Las definiciones de clases, al igual que las definiciones de funciones (instrucciones def)
 deben ejecutarse antes de que tengan efecto alguno.
 
-En la práctica, las declaraciones dentro de una clase son definiciones de funciones, pero otras declaraciones son permitidas, y a veces resultan útiles; veremos esto más adelante. Las definiciones de funciones dentro de una clase normalmente tienen una lista de argumentos peculiar,
-dictada por las convenciones de invocación de métodos;
+En la práctica, las declaraciones dentro de una clase son definiciones de funciones, pero otras declaraciones son permitidas, y a veces resultan útiles. Las definiciones de funciones dentro de una clase normalmente tienen una lista de argumentos peculiar, dictada por las convenciones de invocación de métodos;
 
 
 Los objetos clase soportan dos tipos de operaciones: hacer referencia a atributos e instanciación.
