@@ -69,3 +69,33 @@ Las únicas operaciones comprendidas por objetos de instancia son referencias de
 Los atributos de datos no necesitan ser declarados; Como las variables locales, que surgen en existencia cuando se asignan por primera vez.
 
 El otro tipo de referencia de atributo de instancia es un método. Un método es una función que "pertenece a" un objeto. (En Python, el término método no es exclusivo de las instancias de clases: otros tipos de objetos también pueden tener métodos.Por ejemplo, los objetos de lista tienen métodos llamados `append`, `insert`, `remove`, `sort`, etc.
+
+
+## Herencia
+
+La sintaxis para una definición de clase derivada tiene este aspecto:
+
+``` python
+class SubClase(ClaseBase):
+    <statement-1>
+    .
+    .
+    .
+    <statement-N>
+```
+
+La ejecución de una definición de clase derivada procede igual que para una clase base. Cuando se construye el objeto de clase, se recuerda la clase base. Esto se utiliza para resolver referencias de atributos: si no se encuentra un atributo solicitado en la clase, la búsqueda procede a buscar en la clase base. Esta regla se aplica recursivamente si la clase base se deriva de alguna otra clase.
+
+Las clases derivadas pueden anular los métodos de sus clases base. Debido a que los métodos no tienen privilegios especiales al llamar a otros métodos del mismo objeto, un método de una clase base que llama a otro método definido en la misma clase base puede terminar llamando a un método de una clase derivada que lo reemplace.
+
+## Herencia múltiple
+
+Una definición de clase con varias clases base tiene este aspecto:
+``` python
+class SubClase(Base1, Base2, Base3):
+    <statement-1>
+    .
+    .
+    .
+    <statement-N>
+```
