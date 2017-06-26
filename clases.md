@@ -31,7 +31,7 @@ class MiClase:
 entonces `MiClase.i` y `MiClase.f` son referencias de atributos válidas, que devuelven un entero y un objeto función respectivamente. Los atributos de clase también pueden ser asignados, o sea que podés cambiar el valor de `MiClase.i` mediante asignación. `__doc__` también es un atributo válido, que devuelve la documentación asociada a la clase: "Simple clase de ejemplo".
 
 
-La instanciación de clases usa la notación de funciones. Hacé de cuenta que el objeto de clase es una función sin parámetros que devuelve una nueva instancia de la clase. Por ejemplo (para la clase de más arriba):
+La instanciación de clases usa la notación de funciones. Por ejemplo (para la clase de más arriba):
 ``` python
 x = MiClase()
 ```
