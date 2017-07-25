@@ -6,6 +6,10 @@
                 <attribute name="action">app.balance</attribute>
                 <attribute name="label" translatable="no">Balance</attribute>
             </item>
+            <item>
+                <attribute name="action">app.drag_n_drop</attribute>
+                <attribute name="label" translatable="no">Ejemplo DnD</attribute>
+            </item>
         </section>
     </menu>
 </interface>
